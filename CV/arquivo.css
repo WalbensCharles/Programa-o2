@@ -1,0 +1,31 @@
+body{
+    background-color: #000e16d5;
+
+        p{
+        color:rgb(137, 165, 158);
+    }
+
+    h2 {
+        color :rgb(181, 221, 88);
+    }
+    table{
+        color:#dea4ec;
+    }
+    img{
+        display : block;
+        margin : auto;
+        width : 150px;
+        border : 10px"
+    }
+
+    h1{
+        display : block ;
+        margin : auto;
+        color :#dea4ec
+
+    }
+    ul{
+        color:rgb(239, 239, 255);
+    }
+}
+
