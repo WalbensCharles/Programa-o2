@@ -1,8 +1,8 @@
 body{
-    background-color: #000e16d5;
+    background-color: #f0f0f0d5;
 
         p{
-        color:rgb(137, 165, 158);
+        color:rgb(32, 0, 194);
     }
 
     h2 {
@@ -15,7 +15,7 @@ body{
         display : block;
         margin : auto;
         width : 150px;
-        border : 10px"
+        border : 100px"
     }
 
     h1{
