@@ -1,0 +1,102 @@
+// Variáveis para facilitar a manutenção
+$primary-color: #3498db;
+$secondary-color: #2ecc71;
+$text-color: #0d0707;
+$font-stack: Arial, sans-serif;
+$header-height: 60px;
+
+// Mixins para reutilização
+@mixin box-sizing {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+// Corpo do documento
+body {
+  font-family: $font-stack;
+  color: $text-color;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  @include box-sizing;
+}
+
+// Estilo do cabeçalho
+header {
+  background-color: $primary-color;
+  color: $text-color;
+  padding: 15px 20px;
+  height: $header-height;
+
+  nav {
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+
+      li {
+        display: inline-block;
+        margin-right: 20px;
+
+        a {
+          color: $text-color;
+          text-decoration: none;
+          font-weight: bold;
+
+          &:hover {
+            color: $secondary-color;
+          }
+        }
+      }
+    }
+  }
+}
+
+// Estilo do conteúdo principal
+main {
+  padding: 20px;
+  section {
+    max-width: 1200px;
+    margin: 0 auto;
+
+    h1 {
+      font-size: 2.5rem;
+      color: $primary-color;
+    }
+
+    p {
+      font-size: 1.2rem;
+    }
+  }
+}
+
+// Rodapé
+footer {
+  background-color: $primary-color;
+  color: $text-color;
+  padding: 10px 0;
+  text-align: center;
+}
+
+// Media Queries para responsividade
+@media (max-width: 768px) {
+  header {
+    padding: 10px;
+    height: 50px;
+  }
+
+  nav ul {
+    text-align: left;
+
+    li {
+      display: block;
+      margin: 10px 0;
+    }
+  }
+
+  main {
+    padding: 15px;
+  }
+}

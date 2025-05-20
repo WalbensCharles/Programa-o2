@@ -1,0 +1,13 @@
+. Inicialize o projeto Node.js (se ainda não tiver)
+No terminal, rode:npm init -y
+
+3. Instale o Express (framework para servidor web)
+Rode no terminal:npm install express
+
+
+No terminal do VS Code, rode:node index.js
+
+Se mudar o código, pare o servidor (Ctrl+C) e rode de novo (node index.js)
+Para reiniciar automaticamente a cada mudança, use o nodemon:
+npm install -g nodemon
+nodemon index.js

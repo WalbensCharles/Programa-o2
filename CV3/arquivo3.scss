@@ -1,0 +1,31 @@
+
+$background-color: #3498db; 
+$text-color: #ffffff; 
+
+// Estilo do body
+body {
+  background-color: $background-color; 
+  color: $text-color; 
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  color : $cyan-100;
+
+}
+
+// Estilo do conteúdo
+.content {
+  text-align: center;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.2em;
+}

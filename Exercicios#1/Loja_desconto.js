@@ -1,4 +1,7 @@
+const prompt=require("prompt-sync")();
 //esee programa eu usei ARROW FUNCTION
+
+
 
 const pagamento=(p,f)=>{
 

@@ -1,0 +1,48 @@
+/* Estilos para o rodapé */
+.footer {
+    background-color:#f8944c;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 14px;
+}
+
+.footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer .social-links {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer .social-links li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.footer .social-links a {
+    font-size: 16px;
+    color: #ffffff;
+}
+
+@media screen and(min-width: 800){
+    .container{
+        margin: 1em 2em;
+    }
+
+    .container{
+        margin: 20px;
+    }
+}
+
+
+.navbar.navbar-expand-lg.bg-primary{
+    background-color: #f8944c !important;
+}
+

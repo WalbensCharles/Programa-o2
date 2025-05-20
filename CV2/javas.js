@@ -1,5 +1,5 @@
 var mybody=document.getElementById("pagebody");
-mybody.style.backgroundColor="#E08907";
+mybody.style.backgroundColor="yellow";
 
 let image=document.createElement("img");
 image.src="Walbens2.jpg";
