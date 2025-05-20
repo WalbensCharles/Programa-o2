@@ -20,7 +20,7 @@ app.post('/soma', (req, res) => {
 });
 
 // Exemplo de endpoint para testar
-app.get('usuarios', (req, res) => {
+app.get('/usuarios', (req, res) => {
   res.json([{ id: 1, nome: 'João' }, { id: 2, nome: 'Maria' }]);
 });
 
