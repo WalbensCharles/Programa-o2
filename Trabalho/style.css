@@ -1,14 +1,46 @@
-/* Estilos para o rodapé */
-.footer {
-    background-color:#f8944c;
-    color: white;
-    padding: 20px 0;
-    text-align: center;
-    font-size: 14px;
+
+.navbar.navbar-expand-lg{
+    background-color: #f8944c !important;
 }
 
+.card-img-top{
+    object-fit:cover;
+    height:300px;
+    width:100%;
+}
+
+body{
+    background-color:#975b43;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color:#f8944c;
+}
+
+.product-price {
+  font-weight: bold;
+  color: #ff4500;
+}
+
+.buy-btn {
+  background-color: #000;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.buy-btn:hover {
+  background-color: #857676;
+}
+
+
+
 .footer a {
-    color: #ffffff;
+    color: #000000;
     text-decoration: none;
 }
 
@@ -28,21 +60,15 @@
 
 .footer .social-links a {
     font-size: 16px;
-    color: #ffffff;
-}
-
-@media screen and(min-width: 800){
-    .container{
-        margin: 1em 2em;
-    }
-
-    .container{
-        margin: 20px;
-    }
+    color: #000000;
 }
 
 
-.navbar.navbar-expand-lg.bg-primary{
-    background-color: #f8944c !important;
+/* Estilos para o rodapé */
+.footer {
+    background-color:#f8944c;
+    color: rgb(0, 0, 0);
+    padding: 20px 0;
+    text-align: center;
+    font-size: 14px;
 }
-

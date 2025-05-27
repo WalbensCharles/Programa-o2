@@ -1,0 +1,99 @@
+body{
+    background-color: #b13b0d4d;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: rgb(231, 202, 202);
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    width: 300px;
+}
+
+.content h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 15px;
+}
+
+input[type="email"],
+input[type="name"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.check {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+a {
+    display: block;
+    margin-top: 10px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer .social-links {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer .social-links li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.footer .social-links a {
+    font-size: 16px;
+    color: #000000;
+}
+
+
+/* Estilos para o rodapé */
+.footer {
+    background-color:#f8944c;
+    color: rgb(0, 0, 0);
+    padding: 20px 0;
+    text-align: center;
+    font-size: 14px;
+}

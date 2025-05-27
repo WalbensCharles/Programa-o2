@@ -1,0 +1,26 @@
+
+@media screen and (min-width:1020px){
+
+        .flex{
+        display:flex;
+        gap:20px;
+        flex-direction:row;
+        flex-wrap: wrap;
+        margin :auto;
+    }
+    
+}
+card-img-top{
+    height:100px;
+
+}
+.flex img{
+    margin:10px;
+    width:300px;
+    padding-right:10px;
+    padding-left:10px;
+}
+header{
+    background-color: blue;
+    height:100px;
+}
